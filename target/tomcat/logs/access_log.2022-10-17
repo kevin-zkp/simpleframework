@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [17/Oct/2022:21:31:28 +0800] "GET /simpleframework/hello HTTP/1.1" 200 132 http-bio-8080-exec-1 823
+0:0:0:0:0:0:0:1 - - [17/Oct/2022:21:31:28 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8080-exec-4 0
+0:0:0:0:0:0:0:1 - - [17/Oct/2022:21:37:21 +0800] "GET /simpleframework/hello HTTP/1.1" 200 132 http-bio-8080-exec-1 156
+0:0:0:0:0:0:0:1 - - [17/Oct/2022:21:37:27 +0800] "GET /simpleframework HTTP/1.1" 302 - http-bio-8080-exec-3 0
+0:0:0:0:0:0:0:1 - - [17/Oct/2022:21:37:27 +0800] "GET /simpleframework/ HTTP/1.1" 200 132 http-bio-8080-exec-4 2
+0:0:0:0:0:0:0:1 - - [17/Oct/2022:21:49:34 +0800] "GET /simpleframework/ HTTP/1.1" 200 - http-bio-8080-exec-1 165
+0:0:0:0:0:0:0:1 - - [17/Oct/2022:21:49:42 +0800] "GET /simpleframework/ HTTP/1.1" 200 - http-bio-8080-exec-3 3
+0:0:0:0:0:0:0:1 - - [17/Oct/2022:21:50:10 +0800] "GET /simpleframework/frontend/getmainpageinfo HTTP/1.1" 200 - http-bio-8080-exec-4 2

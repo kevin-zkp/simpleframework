@@ -1,0 +1,18 @@
+package com.imooc.entity.dto;
+
+import lombok.Data;
+
+/**
+ * @description:
+ * @author: ZKP
+ * @time: 2022/10/17
+ */
+@Data
+public class Result<T> {
+    //本次请求结果状态码，200表示成功
+    private int code;
+   // 本次结果详情
+    private String msg;
+    // 本次请求返回的结果集
+    private T data;
+}
